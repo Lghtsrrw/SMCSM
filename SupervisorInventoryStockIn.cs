@@ -8,16 +8,18 @@ using System.Text;
 using System.Windows.Forms;
 using KOTL;
 using MySql.Data.MySqlClient;
+using DGVPrinterHelper;
 
 namespace SMCSM
 {
-    public partial class StockClerkInventoryStockIn : Form
+    public partial class SupervisorInventoryStockIn : Form
     {
         CallSqlModule csm = new CallSqlModule();
-        public StockClerkInventoryStockIn()
+        public SupervisorInventoryStockIn()
         {
             InitializeComponent();
         }
+
         #region Dev's Method
         public void fillTable()
         {
@@ -62,11 +64,6 @@ namespace SMCSM
         }
         #endregion
 
-        private void StockClerkInventoryStockIn_Load(object sender, EventArgs e)
-        {
-            fillTable();
-        }
-
         private void cmbSearchBy_SelectedIndexChanged(object sender, EventArgs e)
         {
             autoCompleteSearch(cmbSearchBy.Text);
@@ -82,8 +79,9 @@ namespace SMCSM
         {
             switch (cmbSearchBy.Text)
             {
+
                 case "Delivery Receipt No":
-                    tblStockIn.DataSource = csm.fillTable("Select * from stockin si inner join stockinreg sir on si.DRNo = sir.DRNo where si.DRNo = '"+txtSearchBy.Text+"'").Tables[0];
+                    tblStockIn.DataSource = csm.fillTable("Select * from stockin si inner join stockinreg sir on si.DRNo = sir.DRNo where si.DRNo = '" + txtSearchBy.Text + "'").Tables[0];
                     break;
                 case "Product No":
                     tblStockIn.DataSource = csm.fillTable("Select * from stockin si inner join stockinreg sir on si.DRNo = sir.DRNo where si.productNo= '" + txtSearchBy.Text + "'").Tables[0];
@@ -106,17 +104,32 @@ namespace SMCSM
             }
         }
 
+
         private void dtDateTo_ValueChanged(object sender, EventArgs e)
         {
             tblStockIn.DataSource = csm.fillTable("Select * from stockin si inner join stockinreg sir on si.DRNo = sir.DRNo where Si.stockDate Between '" + dpDateFrom.Text + "' and '" + dtDateTo.Text + "'").Tables[0];
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void SupervisorInventoryStockIn_Load(object sender, EventArgs e)
         {
-           // using(AddStockIn asi = new AddStockIn())
-           // {
-            //    asi.ShowDialog();
-            //}
+            fillTable();
         }
+
+        private void btnPrintReview_Click(object sender, EventArgs e)
+        {
+            DGVPrinter printer = new DGVPrinter();
+            printer.Title = "Pagadian City Shoe Mate\nJamisola St.,Sta.Lucia Dist.,Pagadian City";
+            printer.SubTitle = string.Format("List of Stock In\nDate {0}", DateTime.Now.ToShortDateString());
+            printer.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            printer.PageNumbers = true;
+            printer.ColumnWidth = DGVPrinter.ColumnWidthSetting.DataWidth;
+            printer.TableAlignment = DGVPrinter.Alignment.Center;
+            printer.PageNumberInHeader = false;
+            printer.HeaderCellAlignment = StringAlignment.Near;
+            printer.Footer = "";
+            printer.PageSettings.Landscape = false;
+            printer.PrintDataGridView(tblStockIn);
+        }
+
     }
 }

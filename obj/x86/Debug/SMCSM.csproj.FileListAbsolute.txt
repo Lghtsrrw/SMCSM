@@ -27,3 +27,42 @@ C:\Users\Thales\documents\visual studio 2010\Projects\SMCSM\SMCSM\obj\x86\Debug\
 C:\Users\Thales\documents\visual studio 2010\Projects\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AddSupplier.resources
 C:\Users\Thales\documents\visual studio 2010\Projects\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventoryMenu.resources
 C:\Users\Thales\documents\visual studio 2010\Projects\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventorySales.resources
+C:\Users\Thales\Documents\Visual Studio 2010\Projects\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventoryStockIn.resources
+C:\Users\Thales\Documents\Visual Studio 2010\Projects\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventoryStockReturn.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.exe
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.pdb
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.csprojResolveAssemblyReference.cache
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AddNewEmployee.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AddNewUser.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AddSupplier.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminEmployeeForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminInventoryMenuForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminInventorySalesForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminInventoryStockInForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminInventoryStockReturnForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminMainMenuForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminSupplierForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.ForgotPasswordSecurityQuest.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.ForgotPassworUsername.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventoryMenu.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkMainMenu.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventorySales.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventoryStockIn.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.StockClerkInventoryStockReturn.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.UserAccountChangePassword.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.UserAccountForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.AdminUserAccountMenu.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.LoginForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.MainMenuForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.Properties.Resources.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.UserAccountUserForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.csproj.GenerateResource.Cache
+C:\Users\PC\Downloads\SMCSM\SMCSM\bin\Debug\SMCSM.exe
+C:\Users\PC\Downloads\SMCSM\SMCSM\bin\Debug\SMCSM.pdb
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.SupervisorInventoryMainForm.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.SupervisorInventorySales.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.SupervisorInventoryStockIn.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.SupervisorMainMenu.resources
+C:\Users\PC\Downloads\SMCSM\SMCSM\obj\x86\Debug\SMCSM.SupervisorInventoryStockReturn.resources
+C:\Users\Thales\Desktop\SMCSM\SMCSM\obj\x86\Debug\SMCSM.exe
+C:\Users\Thales\Desktop\SMCSM\SMCSM\obj\x86\Debug\SMCSM.pdb

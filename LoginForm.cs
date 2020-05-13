@@ -31,6 +31,7 @@ namespace SMCSM
                 break;
                 case "SUPERVISOR":
                     MessageBox.Show("Supervisor");
+                    thisMainForm.callFormToPnlContainer(new SupervisorMainMenu(thisMainForm));
                 break;
                 case "STOCK CLERK":
                     thisMainForm.callFormToPnlContainer(new StockClerkMainMenu(thisMainForm));

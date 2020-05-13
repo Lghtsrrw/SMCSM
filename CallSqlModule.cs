@@ -22,7 +22,7 @@ namespace KOTL
     class CallSqlModule
     {
         #region Sql Variables and Connections
-        String sqlconnection = "datasource = localhost;port = 3306;Initial Catalog='SMCSM';username = root;password = 1234;";
+        String sqlconnection = "datasource = localhost;port = 3306;Initial Catalog='SMCSM';username = root;password = root;";
         MySqlConnection myconn;
         MySqlDataAdapter sda;
         DataSet ds;
@@ -70,7 +70,7 @@ namespace KOTL
         }
         public void runDatabaseScript()
         {
-            string script = File.ReadAllText(@"D:\OSCA_DatabaseBackup.sql");
+            string script = File.ReadAllText(@"C:\Users\PC\Documents\smcsm.sql");
 
             // split script on GO command
             IEnumerable<string> commandStrings = Regex.Split(script, @"^\s*GO\s*$",

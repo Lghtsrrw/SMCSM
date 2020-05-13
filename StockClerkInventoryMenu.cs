@@ -27,21 +27,23 @@ namespace SMCSM
             b.Show();
         }
         #endregion
-        private void msStockIn_Click(object sender, EventArgs e)
+        private void msStockIn_Click_1(object sender, EventArgs e)
         {
+
             StockClerkInventoryStockIn scisi = new StockClerkInventoryStockIn();
             callFormToPnlContainer(scisi);
         }
 
-        private void msSales_Click(object sender, EventArgs e)
+        private void msSales_Click_1(object sender, EventArgs e)
         {
             StockClerkInventorySales scis = new StockClerkInventorySales();
             callFormToPnlContainer(scis);
         }
 
-        private void msStockReturn_Click(object sender, EventArgs e)
+        private void msStockReturn_Click_1(object sender, EventArgs e)
         {
-
+            StockClerkInventoryStockReturn scisr = new StockClerkInventoryStockReturn();
+            callFormToPnlContainer(scisr);
         }
     }
 }

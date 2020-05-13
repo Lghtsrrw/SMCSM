@@ -141,6 +141,48 @@
     <Compile Include="StockClerkInventorySales.designer.cs">
       <DependentUpon>StockClerkInventorySales.cs</DependentUpon>
     </Compile>
+    <Compile Include="StockClerkInventoryStockIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockClerkInventoryStockIn.designer.cs">
+      <DependentUpon>StockClerkInventoryStockIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockClerkInventoryStockReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockClerkInventoryStockReturn.designer.cs">
+      <DependentUpon>StockClerkInventoryStockReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorInventoryMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorInventoryMainForm.Designer.cs">
+      <DependentUpon>SupervisorInventoryMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorInventorySales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorInventorySales.Designer.cs">
+      <DependentUpon>SupervisorInventorySales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorInventoryStockIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorInventoryStockIn.Designer.cs">
+      <DependentUpon>SupervisorInventoryStockIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorInventoryStockReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorInventoryStockReturn.Designer.cs">
+      <DependentUpon>SupervisorInventoryStockReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupervisorMainMenu.Designer.cs">
+      <DependentUpon>SupervisorMainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserAccountChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,6 +266,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StockClerkInventorySales.resx">
       <DependentUpon>StockClerkInventorySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockClerkInventoryStockIn.resx">
+      <DependentUpon>StockClerkInventoryStockIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockClerkInventoryStockReturn.resx">
+      <DependentUpon>StockClerkInventoryStockReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorInventoryMainForm.resx">
+      <DependentUpon>SupervisorInventoryMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorInventorySales.resx">
+      <DependentUpon>SupervisorInventorySales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorInventoryStockIn.resx">
+      <DependentUpon>SupervisorInventoryStockIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorInventoryStockReturn.resx">
+      <DependentUpon>SupervisorInventoryStockReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorMainMenu.resx">
+      <DependentUpon>SupervisorMainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserAccountChangePassword.resx">
       <DependentUpon>UserAccountChangePassword.cs</DependentUpon>
